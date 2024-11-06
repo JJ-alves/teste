@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minha primeira página só com HTML">
+    <title>Minha primeira página HTML</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- css interno - dentro da tag head -->
+    <!-- <style>
+        h2 {
+            background-color: rgb(102, 118, 113);
+            color: aliceblue;
+            width: 20%;
+        }
+        p{
+            background-color: rgb(165, 157, 147);
+            font-size: 25px;
+            width: 46%;
+            border-radius: 20px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <!-- título vai de H1 até H6 -->
+     <!-- CSS inline -->
+    <h1 style="background-color: rgb(162, 166, 221); border-radius: 10px;">Título em H1</h1>
+    <h2>Título em H2</h2>
+    <h3>Título em H3</h3>
+    <h4>Título em H4</h4>
+    <h5>Título em H5</h5>
+    <h6>Título em H6</h6>
+
+    <!-- paragráfos sempre com a tag <p> -->
+    <div class="paragrafo">
+    <p>Esse texto vai ser em <strong>negrito</strong></p>
+    <p>Esse texto vai ser em <i>itálico</i></p>
+    <p>Esse texto vai ser em <u>sublinhado</u></p>
+    <p>Esse texto vai ser em <s>taxado</s></p>
+    </div>
+
+    
+
+    <!-- Links externos - links para páginas externas -->
+     <a href="https://www.google.com" target="_blank">Clique aqui</a>
+<br><br>
+
+     <!-- Links Internos - links de dentro do próprio site -->
+    <a href="contato.html">Contato</a>
+<br><br>
+
+    <!-- Criando Imagens -->
+     <img src="src/images/download.jpg" alt="Pikachu" title="Pikachu">
+     <img src="https://placehold.co/200" alt="Placehold">
+<br><br>
+
+     <!-- Listas - Não ordenadas e Ordenadas -->
+     <h3>Lista não ordenada</h3> 
+     <!-- ul>li*4 - atalho para criar lista-->
+     <ul>
+        <li>pão</li>
+        <li>café</li>
+        <li>suco</li>
+        <li>leite</li>
+      </ul>
+
+      <h3>Lista ordenada</h3>
+      <!-- ol>li*3 - atalho para criar lista-->
+      <ol>
+        <li>1° lugar</li>
+        <li>2° lugar</li>
+        <li>3° lugar</li>
+      </ol>
+<br>
+
+      <!-- Tabelas -->
+       <h3>Tabela</h3>
+       <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Camisa</td>
+                    <td>2</td>
+                    <td>R$20,00</td>
+                </tr>
+                <tr>
+                    <td>Calça</td>
+                    <td>1</td>
+                    <td>R$ 120,00</td>
+                </tr>
+            </tbody>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>R$160,00</td>
+            </tr>
+        </tfoot>
+       </table>
+</body>    
+</html>

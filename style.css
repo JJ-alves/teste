@@ -1,0 +1,26 @@
+/* CSS externo */
+h2 {
+    background-color: rgb(102, 118, 113);
+    color: aliceblue;
+    width: 20%;
+}
+/* p {
+    background-color: rgb(165, 157, 147);
+    font-size: 25px;
+    width: 46%;
+    border-radius: 20px;    
+    color: hsl(hue, saturation, lightness);
+    color: rgb(red, green, blue);
+    margin: 30px;
+    padding: 20px;
+    border: solid 2px rgb(140, 154, 140);
+    display: inline;
+} */
+
+.paragrafo {
+    background-color: aquamarine;
+    border: solid 2px black;
+    width: 300px;
+    
+    box-sizing: border-box
+}
